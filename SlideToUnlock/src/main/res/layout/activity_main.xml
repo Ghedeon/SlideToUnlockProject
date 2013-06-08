@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                xmlns:su="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+  <com.slidetounlock.widget.SlideToUnlock
+      android:id="@+id/slidetounlock"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="15dp"
+      android:layout_centerInParent="true"
+      su:text="@string/slidetounlock_label"
+      su:thumb="@drawable/slidetounlock_thumb"
+      su:track="@drawable/slidetounlock_bg"
+      />
+
+</RelativeLayout>

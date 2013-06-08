@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="SlideToUnlockView">
+    <attr name="text" format="string"/>
+    <attr name="thumb" format="integer"/>
+    <attr name="track" format="integer"/>
+  </declare-styleable>
+</resources>
